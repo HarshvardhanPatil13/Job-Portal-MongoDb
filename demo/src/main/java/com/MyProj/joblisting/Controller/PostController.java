@@ -15,7 +15,7 @@ import com.MyProj.joblisting.Repository.PostRepo;
 import com.MyProj.joblisting.Repository.SeacrhRepo;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000/", "https://job-portal-using-mongodb.onrender.com/"})
+@CrossOrigin(origins = {"http://localhost:3000/", "https://job-portal-using-mongodb.onrender.com/","https://job-portal-mongo-db.vercel.app/"})
 public class PostController {
 
     @Autowired
