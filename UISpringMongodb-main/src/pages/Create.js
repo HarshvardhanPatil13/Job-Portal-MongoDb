@@ -32,7 +32,7 @@ const Create = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://job-portal-mongo-db.vercel.app/post", {
+    fetch("https://job-portal-using-mongodb.onrender.com/post", {
       method: "POST", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

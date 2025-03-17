@@ -20,7 +20,7 @@ const Feed = () => {
     const fetchPosts = async () => {
       if (query.length > 0) {
         try {
-          const response = await axios.get(`https://job-portal-mongo-db.vercel.app/posts/${query}`);
+          const response = await axios.get(`https://job-portal-using-mongodb.onrender.com/posts/${query}`);
           setPost(response.data);
         } catch (error) {
           console.error("Error fetching posts:", error);
@@ -32,7 +32,7 @@ const Feed = () => {
 
     const fetchInitialPosts = async () => {
       try {
-        const response = await axios.get(`https://job-portal-mongo-db.vercel.app/allPosts`);
+        const response = await axios.get(`https://job-portal-using-mongodb.onrender.com/allPosts`);
         setPost(response.data);
       } catch (error) {
         console.error("Error fetching initial posts:", error);
