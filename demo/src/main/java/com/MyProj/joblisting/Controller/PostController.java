@@ -26,7 +26,6 @@ public class PostController {
 
 
     @GetMapping("/allPosts")
-    @CrossOrigin
     public List<Post> getallPosts()
     {
         return repo.findAll();
