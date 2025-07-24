@@ -24,7 +24,7 @@
   color: white;
 }
 
-.ul { 
+.ul {
   list-style: none;
 }
 
@@ -39,4 +39,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  animation: fadeInUp 0.8s cubic-bezier(0.23, 1, 0.32, 1) both;
 }

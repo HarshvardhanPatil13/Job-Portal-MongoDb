@@ -1,4 +1,6 @@
 import React from "react";
+import "./App.css"; // Import a global stylesheet for UI enhancements
+import { CssBaseline } from "@mui/material"; // Use Material UI baseline for consistent styling
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, Feed, Dashboard, Create } from "./pages";
 import ErrorBoundary from "./pages/ErrorBoundary"; // Import ErrorBoundary
