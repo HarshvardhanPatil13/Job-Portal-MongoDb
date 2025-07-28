@@ -27,25 +27,27 @@ This is a job portal backend application built using **Spring Boot** and **Mongo
 
 ## ☁️ MongoDB Atlas (M0) Configuration
 
-You are using a **MongoDB Atlas M0 (Free Tier)** cluster hosted on the cloud.
+I am using a **MongoDB Atlas M0 (Free Tier)** cluster hosted on the cloud.
 
 Update your `application.properties` file with the connection string:
 
-```properties
+```application.properties
 spring.data.mongodb.uri={MONGO_URI}      Eg., mongodb+srv://<username>:<password>@cluster0.mongodb.net/jobportal?retryWrites=true&w=majority
 spring.data.mongo.database={MONGO_DB}
+```
 
 
-```markdown
+
 ## 🧰 How to Run
 
 ### 🛠️ Step 1: Clone the Repository
 ```bash
 git clone https://github.com/HarshvardhanPatil13/Job-Portal-MongoDb.git
-cd job-portal-springboot
+cd Job-Portal-MongoDb
+```
 
 2. **Configure MongoDB Atlas connection**
-Edit src/main/resources/application.properties and update the URI.
+Edit src/main/resources/application.properties and update the URI as shown above.
 
 3. **Run the application**
 Using Maven:
