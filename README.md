@@ -37,7 +37,7 @@ spring.data.mongo.database={MONGO_DB}
 
 🧰 How to Run
 1. **Clone the repository**
-git clone https://github.com/HarshvardhanPatil13/job-portal-springboot.git
+git clone https://github.com/HarshvardhanPatil13/Job-Portal-MongoDb.git
 cd job-portal-springboot
 
 2. **Configure MongoDB Atlas connection**
