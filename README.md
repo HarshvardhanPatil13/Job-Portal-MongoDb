@@ -46,15 +46,12 @@ git clone https://github.com/HarshvardhanPatil13/Job-Portal-MongoDb.git
 cd Job-Portal-MongoDb
 ```
 
-2. **Configure MongoDB Atlas connection**
-   
-Edit src/main/resources/application.properties and update the URI as shown above.
+### 🔧 Step 2: Configure MongoDB Atlas connection
+Edit src/main/resources/application.properties and paste your updated MongoDB URI and database name.
 
-3. **Run the application**
-   
+### ▶️ Step 3: Run the application
 Using Maven:
 mvn spring-boot:run
-Or using your IDE's Run (▶️) button. 
-
+Or run directly using your IDE’s Run (▶️) button.
 
 
