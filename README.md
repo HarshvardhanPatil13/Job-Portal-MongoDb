@@ -35,16 +35,3 @@ Update your `application.properties` file with the connection string:
 spring.data.mongodb.uri={MONGO_URI}      Eg., mongodb+srv://<username>:<password>@cluster0.mongodb.net/jobportal?retryWrites=true&w=majority
 spring.data.mongo.database={MONGO_DB}
 
-🧰 How to Run
-1. **Clone the repository**
-git clone https://github.com/HarshvardhanPatil13/Job-Portal-MongoDb.git
-cd job-portal-springboot
-
-2. **Configure MongoDB Atlas connection**
-Edit src/main/resources/application.properties and update the URI.
-
-3. **Run the application**
-Using Maven:
-mvn spring-boot:run
-Or using your IDE's Run (▶️) button. 
-
