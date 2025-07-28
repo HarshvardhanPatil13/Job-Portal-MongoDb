@@ -46,4 +46,13 @@ Edit src/main/resources/application.properties and update the URI.
 3. **Run the application**
 Using Maven:
 mvn spring-boot:run
-Or using your IDE's Run (▶️) button.
+Or using your IDE's Run (▶️) button. 
+
+
+# 📸 Screenshots
+
+### 🔍 All Jobs Page
+![All Jobs](Screenshots/Screenshot2.png)
+
+### 📝 Job Posting Form
+![Job Form](Screenshots/Screenshot3.png)
