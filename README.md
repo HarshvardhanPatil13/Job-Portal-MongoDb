@@ -52,7 +52,7 @@ Or using your IDE's Run (▶️) button.
 # 📸 Screenshots
 
 ### 🔍 All Jobs Page
-![All Jobs](images/home.png)
+![All Jobs](images/home)
 
 ### 📝 Job Posting Form
 ![Job Form](images/alljobs.png)
