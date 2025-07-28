@@ -9,7 +9,7 @@ This is a job portal backend application built using **Spring Boot** and **Mongo
 - Add new job postings
 - View all job listings
 - Search jobs by title or location
-- Update / - Delete existing job posts (In progress)
+- Update / Delete existing job posts (In progress)
 - Cloud-based MongoDB Atlas integration (M0 cluster)
 
 ---
@@ -32,7 +32,7 @@ I am using a **MongoDB Atlas M0 (Free Tier)** cluster hosted on the cloud.
 Update your `application.properties` file with the connection string:
 
 ```application.properties
-spring.data.mongodb.uri={MONGO_URI}      Eg., mongodb+srv://<username>:<password>@cluster0.mongodb.net/jobportal?retryWrites=true&w=majority
+spring.data.mongodb.uri={MONGO_URI}     // Eg., mongodb+srv://<username>:<password>@cluster0.mongodb.net/jobportal?retryWrites=true&w=majority
 spring.data.mongo.database={MONGO_DB}
 ```
 
