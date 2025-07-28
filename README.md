@@ -47,9 +47,11 @@ cd Job-Portal-MongoDb
 ```
 
 2. **Configure MongoDB Atlas connection**
+   
 Edit src/main/resources/application.properties and update the URI as shown above.
 
 3. **Run the application**
+   
 Using Maven:
 mvn spring-boot:run
 Or using your IDE's Run (▶️) button. 
