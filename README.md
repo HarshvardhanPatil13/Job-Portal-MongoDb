@@ -47,7 +47,7 @@ cd Job-Portal-MongoDb
 ```
 
 ### 🔧 Step 2: Configure MongoDB Atlas connection
-Edit src/main/resources/application.properties and paste your updated MongoDB URI and database name.
+Edit src/main/resources/application.properties and paste your updated MongoDB URI and database name as shown above.
 
 ### ▶️ Step 3: Run the application
 Using Maven:
